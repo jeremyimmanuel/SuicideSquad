@@ -1,24 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<title> Real time soccer result </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #92a8d1
+}
+
+.header_logo {
+  text-align: center;
+}
+
+.topnav {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  overflow: hidden;
+  background-color: #387;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.topnav a:hover {
+  background-color: blue;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
 </head>
-  <body>
-  	<DIV>
-  		<h1>Real Time Soccer Result</h1>
-  		<img src="logo">
-  	</DIV>
+<body>
+<DIV class="header_logo">
+  <h1>Real Time Soccer Result and Update</h1>
+  <img src="logo.png">
+</DIV>
 
-  	<DIV>
-  		<ul>
-          <li><a href="home.html">Home</a></li>
-          <li><a href="matchs.html">Matchs</a></li>
-          <li><a href="standing.html">Standing</a></li>
-          <li><a href="team.html">Team</a></li>
-          <li><a href="player.html">player</a></li>
-      </ul>
-  	</DIV>  	
+<div class="topnav">
+  <a href="home.html">Home</a>
+  <a href="matchs.html">Match</a>
+  <a href="standing.html">Standing</a>
+  <a href="team.html">Team</a>
+  <a class="active" href="player.html">Player</a>
+</div>
 
-    </body>
+<div style="padding-left:16px">
+  
+</div>
 
+</body>
 </html>
